@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Freaky Friday</title>
+    <link rel="stylesheet" type="text/css" href="buyNow.css" />
+  </head>
+
+  <body style="background-color: darkgray">
+    <div id="border"></div>
+    <img id="bilde" width="15%" height="15%" />
+
+    <button id="buy" disabled="true">Buy</button>
+
+    <label for="shoes" id="shoesForm">Choose a shoe you wish to buy</label>
+    <select id="shoes" onchange="select" type="Number">
+      <option selected disabled="true">Select Shoe</option>
+      <option value="0">Adidas</option>
+      <option value="1">Nike</option>
+      <option value="2">Reebook</option>
+    </select>
+
+    <form method="get" action="buyNow.html">
+      <button type="submit" id="buyNow">Buy now</button>
+    </form>
+    <form method="get" action="contact.html">
+      <button type="submit" id="contact">Contact</button>
+    </form>
+    <form method="get" action="index.html">
+      <button type="submit" id="home">SHOE SHOP</button>
+    </form>
+
+    <script src="buyNowScript.js"></script>
+  </body>
+</html>

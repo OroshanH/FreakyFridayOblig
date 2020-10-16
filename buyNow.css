@@ -1,0 +1,67 @@
+#border {
+  border-bottom: 5px black solid;
+  border-top: 5px black solid;
+  top: 0%;
+  left: 0%;
+  height: 6%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+}
+
+#buyNow {
+  position: absolute;
+  top: 1%;
+  right: 35%;
+}
+#contact {
+  position: absolute;
+  top: 1%;
+  left: 35%;
+}
+#home {
+  font-size: 160%;
+  position: absolute;
+  top: 1%;
+  left: 44%;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#contact,
+#buyNow {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 120%;
+  outline: none;
+  cursor: pointer;
+}
+#shoes {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 10%;
+  height: 3%;
+}
+#shoesForm {
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  font-size: x-large;
+}
+#bilde {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25%;
+}
+#buy {
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  opacity: 0;
+}
